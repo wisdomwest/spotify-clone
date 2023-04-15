@@ -1,12 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import './Sidebar.css';
 
-function Sidebar(props) {
+function Sidebar() {
   return (
-    <div>Sidebar</div>
-  )
+    <div className='sidebar'>
+       <img
+       className='sidebar__logo'  
+        src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
+        alt="" />
+    </div>
+  );
 }
 
-Sidebar.propTypes = {}
-
-export default Sidebar
+export default Sidebar;
